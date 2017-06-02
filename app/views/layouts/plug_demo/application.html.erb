@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Plug demo</title>
+  <%= stylesheet_link_tag    "plug_demo/application", media: "all" %>
+  <%= javascript_include_tag "plug_demo/application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>
